@@ -1,0 +1,66 @@
+#header-img {
+  max-width:40%;
+  margin: auto;
+  display: block;
+  border-radius: 2%;
+}
+
+#wireless {
+  max-width:80%;
+  margin: auto;
+  display: block;
+  border-radius: 2%;
+}
+
+#reference {
+  max-width:80%;
+  margin: auto;
+  display: block;
+  border-radius: 2%;
+}
+
+#prestige {
+  max-width:80%;
+  margin: auto;
+  display: block;
+  border-radius: 2%;
+}
+
+#prestige-series-three {
+  max-width:80%;
+  margin: auto;
+  display: block;
+  border-radius: 2%;
+}
+
+#timbre-series {
+  max-width:80%;
+  margin: auto;
+  display: block;
+  border-radius: 2%;
+}
+
+  @media (max-width: 650px) {
+    ul {
+      overflow: hidden;
+      background-color: #333;
+      position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the top of the page */
+      width: 100%; /* Full width */
+        }
+    ul a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+      }
+}
+  
+#video {
+  posistion: center;
+  width: 50%;
+  margin: auto;
+  border-radius: 2%;
+}
