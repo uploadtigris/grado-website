@@ -1,8 +1,17 @@
 #header-img {
-  max-width:40%;
+  max-width:15%;
+  left: 0
   margin: auto;
   display: block;
   border-radius: 2%;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 #wireless {
@@ -41,12 +50,7 @@
 }
 
   @media (max-width: 650px) {
-    ul {
-      overflow: hidden;
-      background-color: #333;
-      position: fixed; /* Set the navbar to fixed position */
-      top: 0; /* Position the navbar at the top of the page */
-      width: 100%; /* Full width */
+   
         }
     ul a {
   float: left;
